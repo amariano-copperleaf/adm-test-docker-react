@@ -1,4 +1,3 @@
-# https://www.udemy.com/course/docker-and-kubernetes-the-complete-guide/learn/lecture/22776989#questions/17673926
 # * Remember to change your application_name, environment_name, existing_bucket_name, and region to the values 
 # used by your AWS Elastic Beanstalk environment.
 
@@ -7,7 +6,7 @@ name: Deploy Frontend
 on:
   push:
     branches:
-      - main # check your repo, your default branch might be master!
+      - master # check your repo, your default branch might be master!
  
 jobs:
   build:
